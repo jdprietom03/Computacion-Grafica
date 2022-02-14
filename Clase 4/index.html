@@ -1,0 +1,44 @@
+<html lang="en">
+    <head>
+        <title>Title of the document</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+            <span>
+                Rotate:
+            </span>
+            <label for="rotate" id="rotate-label"></label>
+            <input type="range" id="rotate" name="rotate" min="-360" max="360" value="0">
+
+            <span>
+                Escala:
+            </span>
+            <label for="Escala" id="escala-label"></label>
+                <input type="range" id="escala" value="0" min="-100" max="100" step="1"/>
+            <span>
+                pointX1:
+            </span>
+            <label for="pointX1" id="pointX1-label"></label>
+                <input type="range" id="pointX1" value="0" min="0" max="100" step="1"/>
+            <span>
+                pointY1:
+            </span>
+            <label for="pointY1" id="pointY1-label"></label>
+                <input type="range" id="pointY1" value="0" min="0" max="100" step="1"/>
+            <span>
+                pointX2:
+            </span>
+            <label for="pointX2" id="pointX2-label" ></label>
+                <input type="range" id="pointX2" value="0" min="0" max="100" step="1"/>
+            <span>
+                pointY2:
+            </span>
+            <label for="pointY2" id="pointY2-label"></label>
+                <input type="range" id="pointY2" value="0" min="0" max="100" step="1"/>
+        </form>
+        <canvas id="canvas" width="400" height="400"></canvas>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
